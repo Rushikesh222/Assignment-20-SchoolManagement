@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchStudents } from "../features/students/studentSlice";
-import StudentList from "../features/students/StudentList";
+import StudentList from "../features/students/studentList";
 
 const StudentView = () => {
   const { students, status, error } = useSelector(({ students }) => students);

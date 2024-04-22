@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTeachers } from "../features/teachers/teacherSlice";
-import TeacherList from "../features/teachers/TeacherList";
+import TeacherList from "../features/teachers/teacherList";
 
 const TeacherView = () => {
   const { teachers, status, error } = useSelector(({ teachers }) => teachers);
