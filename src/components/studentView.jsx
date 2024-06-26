@@ -19,7 +19,19 @@ const StudentView = () => {
   return (
     <div className="page">
       {status === "loading" && <p className="message">Loading...</p>}
-      {status === "error" && <p className="message">{error}</p>}
+      {status === "error" && (
+        <p className="message">
+          {" "}
+          Repl isn't wakeup yet
+          <a
+            href="https://replit.com/@RushikeshShirsa/SchoolManagementBackend"
+            target="_blank"
+          >
+            {" "}
+            Click here to navigate
+          </a>
+        </p>
+      )}
       {status === "success" && <StudentList students={students} />}
     </div>
   );

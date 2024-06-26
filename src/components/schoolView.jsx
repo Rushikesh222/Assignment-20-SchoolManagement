@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   updateSchoolStats,
   setTopStudent,
-} from "../features/school/schoolSlice";
+} from "../features/schools/schoolSlice";
 import { fetchStudents } from "../features/students/studentSlice";
 
 const SchoolView = () => {

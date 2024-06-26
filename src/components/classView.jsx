@@ -6,7 +6,7 @@ import {
   setFilter,
   setSortBy,
 } from "../features/students/studentSlice";
-import StudentList from "../features/students/StudentList";
+import StudentList from "../features/students/studentList";
 
 const ClassView = () => {
   const dispatch = useDispatch();
